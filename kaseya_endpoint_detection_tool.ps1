@@ -1,4 +1,4 @@
-﻿$SoftwareKey = 'HKLM:\Software'
+$SoftwareKey = 'HKLM:\Software'
 if ([Environment]::Is64BitOperatingSystem)
 { $SoftwareKey = 'HKLM:\Software\WOW6432Node' }
 $var = 0
